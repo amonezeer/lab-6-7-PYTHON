@@ -403,7 +403,6 @@ def resume_game():
 
 # Функція для виходу з гри
 def exit_game():
-    # Завершую Pygame і виходжу
     pygame.quit()
     sys.exit()
 

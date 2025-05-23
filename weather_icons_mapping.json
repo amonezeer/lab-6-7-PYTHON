@@ -1,0 +1,109 @@
+{
+  "weather_icons_mapping": {
+    "Clear": {
+      "clear sky": {
+        "day": "clear_day",
+        "night": "clear_night"
+      }
+    },
+    "Mostly Clear": {
+      "mostly clear": {
+        "day": "mostly_clear_day",
+        "night": "mostly_clear_night"
+      }
+    },
+    "Clouds": {
+      "few clouds": {
+        "day": "partly_cloudy_day",
+        "night": "partly_cloudy_night"
+      },
+      "scattered clouds": {
+        "day": "mostly_cloudy_day",
+        "night": "mostly_cloudy_night"
+      },
+      "broken clouds": "cloudy",
+      "overcast clouds": "cloudy"
+    },
+    "Rain": {
+      "light rain": "drizzle",
+      "moderate rain": "showers_rain",
+      "heavy intensity rain": "heavy_rain",
+      "very heavy rain": "heavy_rain",
+      "extreme rain": "heavy_rain",
+      "freezing rain": "icy",
+      "light shower rain": {
+        "day": "scattered_showers_day",
+        "night": "scattered_showers_night"
+      },
+      "heavy shower rain": "showers_rain",
+      "ragged shower rain": "rain_with_cloudy_dark"
+    },
+    "Drizzle": {
+      "drizzle": "drizzle"
+    },
+    "Thunderstorm": {
+      "thunderstorm with light rain": "isolated_thunderstorms",
+      "thunderstorm with heavy rain": "strong_thunderstorms",
+      "light thunderstorm": {
+        "day": "isolated_scattered_thunderstorms_day",
+        "night": "isolated_scattered_thunderstorms_night"
+      },
+      "heavy thunderstorm": "strong_thunderstorms",
+      "ragged thunderstorm": "strong_thunderstorms"
+    },
+    "Snow": {
+      "light snow": "flurries",
+      "heavy snow": "heavy_snow",
+      "sleet": "sleet_hail",
+      "light thunderstorm": {
+        "day": "scattered_snow_showers_day",
+        "night": "scattered_snow_showers_night"
+      },
+      "showers snow": "showers_snow",
+      "blowing snow": "blowing_snow",
+      "blizzard": "blizzard"
+    },
+    "Atmosphere": {
+      "mist": "haze_fog_dust_smoke",
+      "fog": "haze_fog_dust_smoke",
+      "haze": "haze_fog_dust_smoke",
+      "smoke": "haze_fog_dust_smoke",
+      "dust": "haze_fog_dust_smoke",
+      "sand": "haze_fog_dust_smoke",
+      "volcanic ash": "haze_fog_dust_smoke"
+    },
+    "Extreme": {
+      "tornado": "tornado",
+      "squall": "windy",
+      "tropical storm": "tropical_storm_hurricane",
+      "hurricane": "tropical_storm_hurricane"
+    },
+    "Combined Weather": {
+      "rain and sun": {
+        "day": "sunny_with_rain_light",
+        "night": "sunny_with_rain_dark"
+      },
+      "rain and clouds": {
+        "day": "cloudy_with_rain_light",
+        "night": "cloudy_with_rain_dark"
+      },
+      "snow and sun and clouds": {
+        "day": "sunny_with_snow_light",
+        "night": "sunny_with_snow_dark"
+      },
+      "snow and clouds": {
+        "day": "cloudy_with_snow_light",
+        "night": "cloudy_with_snow_dark"
+      },
+      "mixed rain and snow": "mixed_rain_snow"
+    },
+    "Temperature Extremes": {
+      "very cold": "very_cold",
+      "very hot": "very_hot"
+    },
+    "Other": {
+      "windy": "windy",
+      "umbrella (general rain)": "umbrella"
+    }
+  }
+}
