@@ -179,6 +179,7 @@ class WeatherAPI:
             "mixed rain and snow": "Змішаний дощ і сніг",
             "very cold": "Дуже холодно",
             "very hot": "Дуже жарко",
+            "sky is clear": "Небо чисте",
             "windy": "Вітряно",
             "umbrella (general rain)": "Парасолька (загальний дощ)"
         }
